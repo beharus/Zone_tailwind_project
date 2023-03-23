@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Figma Project</title>
+    <!-- style -->
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-[#111827] min-h-screen">
+    <!-- body -->
+    <div class="container max-w-[1440px] mx-auto">
+        <!-- navbar -->
+        <div class="navbar bg-[#111827] fixed w-full top-0 max-w-[1440px]">
+            <div class="container flex justify-between items-center py-3 w-full max-w-[1440px] mx-auto px-[5%]">
+                <div class="left">
+                    <img src="./img/Logo.png" alt="">
+                </div>
+                <!-- in laptops -->
+                <div class="right md:flex gap-8 items-center hidden">
+                    <!-- menu -->
+                    <div
+                        class="item text-sm font-medium leading-3 cursor-pointer hover:text-violet-600 duration-500 text-[#F9FAFB]">
+                        Home</div>
+                    <div
+                        class="item text-sm font-medium leading-3 cursor-pointer hover:text-violet-600 duration-500 text-[#F9FAFB]">
+                        About Us</div>
+                    <div
+                        class="item text-sm font-medium leading-3 cursor-pointer hover:text-violet-600 duration-500 text-[#F9FAFB]">
+                        Service</div>
+                    <div
+                        class="item text-sm font-medium leading-3 cursor-pointer hover:text-violet-600 duration-500 text-[#F9FAFB]">
+                        Pricing</div>
+                    <div
+                        class="item text-sm font-medium leading-3 cursor-pointer hover:text-violet-600 duration-500 text-[#F9FAFB]">
+                        Blog</div>
+                    <!-- menu-btn -->
+                    <div
+                        class="item btn py-3 px-6 text-sm font-medium leading-3 rounded-md text-[#F9FAFB] cursor-pointer  duration-500 hover:text-[#ffffffac]">
+                        Contact Us</div>
+                </div>
+                <!-- in mobile phones -->
+                <div id="mobile-bar" class="block md:hidden z-50 w-8 h-8">
+                    <div class="line-full rounded-full my-2 h-1 bg-white"></div>
+                    <div class="line-full rounded-full my-2 h-1 bg-white"></div>
+                    <div class="line w-full rounded-full my-2 h-1 bg-white"></div>
+                </div>
+                <div id="menu"
+                    class="fixed duration-700 w-full h-full top-0 bottom-0 right-[-100%] md w-full:md:w-1/2 bg-slate-800">
+                    <div
+                        class="item mx-auto text-center py-6 text-sm font-medium leading-3 cursor-pointer hover:text-violet-600 duration-500 text-[#F9FAFB]">
+                        Home</div>
+                    <div
+                        class="item mx-auto text-center py-6 text-sm font-medium leading-3 cursor-pointer hover:text-violet-600 duration-500 text-[#F9FAFB]">
+                        About Us</div>
+                    <div
+                        class="item mx-auto text-center py-6 text-sm font-medium leading-3 cursor-pointer hover:text-violet-600 duration-500 text-[#F9FAFB]">
+                        Service</div>
+                    <div
+                        class="item mx-auto text-center py-6 text-sm font-medium leading-3 cursor-pointer hover:text-violet-600 duration-500 text-[#F9FAFB]">
+                        Pricing</div>
+                    <div
+                        class="item mx-auto text-center py-6 text-sm font-medium leading-3 cursor-pointer hover:text-violet-600 duration-500 text-[#F9FAFB]">
+                        Blog</div>
+                    <!-- menu-btn -->
+                    <div
+                        class="item mx-auto text-center w-40 btn py-3 px-6 text-sm font-medium leading-3 rounded-md text-[#F9FAFB] cursor-pointer  duration-500 hover:text-[#ffffffac]">
+                        Contact Us</div>
+                </div>
+            </div>
+        </div>
+        <!-- home__seccion -->
+        <div class="container px-[5%] my-40 grid lg:grid-cols-2 grid-cols-1 justify-between items-center">
+            <div class="left col-span-1 text-white">
+                <h1 class="h1 mb-7">Virtual Reality Business Solutions</h1>
+                <p class=" mb-8">We have over 15 year exprience in business consultting arena. We have over 15 year
+                    exprience in
+                    business consultting arena and artficial intelligence.</p>
+                <div class="btn__group flex gap-5">
+                    <button class="join px-10 py-5 rounded-md text-base font-medium">
+                        Join Us
+                    </button>
+                    <div class="watch flex items-center gap-2 cursor-pointer text-base font-medium">
+                        <div class="img">
+                            <img src="./img/watch.png" alt="">
+                        </div>
+                        <span>Watch video</span>
+                    </div>
+                </div>
+            </div>
+            <div class="right col-span-1">
+                <img src="./img/main-content-img.png" alt="">
+            </div>
+        </div>
+        <!-- services -->
+        <div class="services">
+            <h1 class="text-4xl text-white font-bold text-center md:text-[42px]">
+                Our Service
+            </h1>
+            <p class="text-white text-center mt-[30px] mb-[40px] w-3/4 mx-auto">We turn information into actionable
+                insights We work to understand your issues
+                and are driven to ask better questions in the pursuit of making work.</p>
+            <div class="cards flex justify-center gap-x-7 gap-y-10 flex-wrap text-white text-center">
+                <div class="card w-[370px] px-6 py-9">
+                    <img class="pb-5 mx-auto" src="./img/servise-icon.png" alt="">
+                    <h2 class="text-2xl font-medium pb-4">Order Management</h2>
+                    <p class="text-base pb-6">Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed quis
+                        accumsan nisi Ut ut felis
+                        congue nisl hendrerit commodo.</p>
+                    <button><a class="no-underline text-white hover:underline hover:text-violet-500 duration-500"
+                            href="#">Learn more</a></button>
+                </div>
+                <div class="card w-[370px] px-6 py-9">
+                    <img class="pb-5 mx-auto" src="./img/servise-icon2.png" alt="">
+                    <h2 class="text-2xl font-medium pb-4">Social Assistant</h2>
+                    <p class="text-base pb-6">Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed quis
+                        accumsan nisi Ut ut felis
+                        congue nisl hendrerit commodo.</p>
+                    <button><a class="no-underline text-white hover:underline hover:text-violet-500 duration-500"
+                            href="#">Learn more</a></button>
+                </div>
+                <div class="card w-[370px] px-6 py-9">
+                    <img class="pb-5 mx-auto" src="./img/servise-icon3.png" alt="">
+                    <h2 class="text-2xl font-medium pb-4">Crypto Platform</h2>
+                    <p class="text-base pb-6">Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed quis
+                        accumsan nisi Ut ut felis
+                        congue nisl hendrerit commodo.</p>
+                    <button><a class="no-underline text-white hover:underline hover:text-violet-500 duration-500"
+                            href="#">Learn more</a></button>
+                </div>
+                <div class="card w-[370px] px-6 py-9">
+                    <img class="pb-5 mx-auto" src="./img/servise-icon4.png" alt="">
+                    <h2 class="text-2xl font-medium pb-4">Smart Trading Modules</h2>
+                    <p class="text-base pb-6">Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed quis
+                        accumsan nisi Ut ut felis
+                        congue nisl hendrerit commodo.</p>
+                    <button><a class="no-underline text-white hover:underline hover:text-violet-500 duration-500"
+                            href="#">Learn more</a></button>
+                </div>
+                <div class="card w-[370px] px-6 py-9">
+                    <img class="pb-5 mx-auto" src="./img/servise-icon5.png" alt="">
+                    <h2 class="text-2xl font-medium pb-4">Analyzer of the News</h2>
+                    <p class="text-base pb-6">Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed quis
+                        accumsan nisi Ut ut felis
+                        congue nisl hendrerit commodo.</p>
+                    <button><a class="no-underline text-white hover:underline hover:text-violet-500 duration-500"
+                            href="#">Learn more</a></button>
+                </div>
+                <div class="card w-[370px] px-6 py-9">
+                    <img class="pb-5 mx-auto" src="./img/servise-icon6.png" alt="">
+                    <h2 class="text-2xl font-medium pb-4">Module of Price Notification</h2>
+                    <p class="text-base pb-6">Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed quis
+                        accumsan nisi Ut ut felis
+                        congue nisl hendrerit commodo.</p>
+                    <button><a class="no-underline text-white hover:underline hover:text-violet-500 duration-500"
+                            href="#">Learn more</a></button>
+                </div>
+            </div>
+        </div>
+        <!-- description__part__1 -->
+        <div class="description1 grid grid-cols-1 my-40 items-center lg:grid-cols-2 justify-evenly gap-10 px-[5%]">
+            <div class="left col-span-1 justify-self-center">
+                <img src="./img/man.png" alt="">
+            </div>
+            <div class="right col-span-1 text-white">
+                <h2 class="font-bold text-4xl  leading-[52px] lg:text-[42px]">We complete every projects<br>
+                    extra care as customer need</h2>
+                <p class="font-normal my-8 text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
+                    dictum risus, non suscipit arcu.
+                    Quisque aliquam posuere tortor, sit amet convallis nuncoe scelerisque in. orem ipsum dolor sit amet,
+                    consectetur adipisicing elit. Labore eius molestiae facere, natus reprehenderit eaque eum, autem
+                    ipsam. Magfini, error. Tempora odit laborum iure inventore possimus laboriosam qui nam. </p>
+                <button class="btn py-2 px-[14px] rounded">Read more</button>
+            </div>
+        </div>
+        <!-- description__part__2 -->
+        <div class="description2 grid grid-cols-1 my-40 items-center lg:grid-cols-2 justify-evenly gap-10 px-[5%]">
+            <div class="left col-span-1 text-white">
+                <h2 class="font-bold text-4xl  leading-[52px] lg:text-[42px]">We complete every projects<br>
+                    extra care as customer need</h2>
+                <p class="font-normal my-8 text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
+                    dictum risus, non suscipit arcu.
+                    Quisque aliquam posuere tortor, sit amet convallis nuncoe scelerisque in. orem ipsum dolor sit amet,
+                    consectetur adipisicing elit. Labore eius molestiae facere, natus reprehenderit eaque eum, autem
+                    ipsam. Magfini, error. Tempora odit laborum iure inventore possimus laboriosam qui nam. </p>
+                <button class="btn py-2 px-[14px] rounded">Read more</button>
+            </div>
+            <div class="right col-span-1 justify-self-center">
+                <img src="./img/man2.png" alt="">
+            </div>
+        </div>
+        <!-- our__team -->
+        <div class="team text-center my-40">
+            <h1 class="text-4xl text-white font-bold leading-[55px] lg:text-[42px]">Met Our Team</h1>
+            <p class="my-8 text-white w-2/3 lg:w-1/3 mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Sed quis
+                accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>
+            <div class="cards flex justify-center gap-10 flex-wrap">
+                <div class="card w-[270px] py-8 px-14 text-white text-center">
+                    <img class="mx-auto -mb-[20px]" src="./img/team.png" alt="">
+                    <h2 class="text-[28px] font-medium leading-9 mb-[7px]">Sunny Khan</h2>
+                    <p class="font-normal leading-5 uppercase">Executive officer</p>
+                    <div class="icons flex mt-[10px] justify-center gap-2">
+                        <img src="./img/s.png" alt="" class="icon cursor-pointer">
+                        <img src="./img/in.png" alt="" class="icon cursor-pointer">
+                        <img src="./img/tw.png" alt="" class="icon cursor-pointer">
+                        <img src="./img/fb.png" alt="" class="icon cursor-pointer">
+                    </div>
+                </div>
+                <div class="card w-[270px] py-8 px-14 text-white text-center">
+                    <img class="mx-auto -mb-[20px]" src="./img/team2.png" alt="">
+                    <h2 class="text-[28px] font-medium leading-9 mb-[7px]">Alina Jesia</h2>
+                    <p class="font-normal leading-5 uppercase">UX/UI DESIGNER</p>
+                    <div class="icons flex mt-[10px] justify-center gap-2">
+                        <img src="./img/s.png" alt="" class="icon cursor-pointer">
+                        <img src="./img/in.png" alt="" class="icon cursor-pointer">
+                        <img src="./img/tw.png" alt="" class="icon cursor-pointer">
+                        <img src="./img/fb.png" alt="" class="icon cursor-pointer">
+                    </div>
+                </div>
+                <div class="card w-[270px] py-8 px-14 text-white text-center">
+                    <img class="mx-auto -mb-[20px]" src="./img/team3.png" alt="">
+                    <h2 class="text-[28px] font-medium leading-9 mb-[7px]">Alex Sohag</h2>
+                    <p class="font-normal leading-5 uppercase">BUSINESS DEVELOPMENT</p>
+                    <div class="icons flex mt-[10px] justify-center gap-2">
+                        <img src="./img/s.png" alt="" class="icon cursor-pointer">
+                        <img src="./img/in.png" alt="" class="icon cursor-pointer">
+                        <img src="./img/tw.png" alt="" class="icon cursor-pointer">
+                        <img src="./img/fb.png" alt="" class="icon cursor-pointer">
+                    </div>
+                </div>
+                <div class="card w-[270px] py-8 px-14 text-white text-center">
+                    <img class="mx-auto -mb-[20px]" src="./img/team4.png" alt="">
+                    <h2 class="text-[28px] font-medium leading-9 mb-[7px]">Afroza Mou</h2>
+                    <p class="font-normal leading-5 uppercase">Head of marketing</p>
+                    <div class="icons flex mt-[10px] justify-center gap-2">
+                        <img src="./img/s.png" alt="" class="icon cursor-pointer">
+                        <img src="./img/in.png" alt="" class="icon cursor-pointer">
+                        <img src="./img/tw.png" alt="" class="icon cursor-pointer">
+                        <img src="./img/fb.png" alt="" class="icon cursor-pointer">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- contact__form -->
+        <div class="contact text-center my-10 mx-[5%]">
+            <div
+                class="container px-[5%] mx-auto flex flex-col max-w-[1170px] w-full justify-center items-center text-white">
+                <h1 class="lg:texr-[42px] text-3xl font-bold mt-[50px] mb-3">Subscribe to get the Latest News</h1>
+                <p class="text-base text-center">We recommended you to subscribe to our newspaper,drop your email below
+                    to get daily update about us</p>
+                <div class="input mt-[30px] flex justify-between mb-10 max-w-[860px] w-[100%] p-[10px]">
+                    <input class="border-none py-[15px] px-[34px] bg-[#0000] outline-none" type="text"
+                        placeholder="Enter your email addres">
+                    <button class="btn flex items-center gap-3 py-[15px] pl-[26px] pr-[49px] rounded-[70px] opacity-90">
+                        <img src="./img/send.png" alt="">
+                        Subscribe
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="footer text-white">
+            <div class="top grid gay-10 py-[50px] lg:grid-cols-5 px-[5%] grid-cols-2 md:grid-cols-3">
+                <div class="cols col-span-1">
+                    <div class="flex gap-3 my-3 mt-0 pt-0 text-[#FFFFFFCC] hover:text-violet-700 duration-300 cursor-pointer">
+                        <div class="">
+                            <img src="./img/Logo.png" alt="">
+                        </div>
+                    </div>
+                    <div class="flex gap-3 my-3 text-[#FFFFFFCC] hover:text-violet-700 duration-300 cursor-pointer">
+                        <div class="">
+                            <img src="./img/Location.png" alt="">
+                        </div>
+                        Dhaka, Bangladesh
+                    </div>
+                    <div class="flex gap-3 my-3 text-[#FFFFFFCC] hover:text-violet-700 duration-300 cursor-pointer">
+                        <div class="">
+                            <img src="./img/Calling.png" alt="">
+                        </div>
+                        09443833399
+                    </div>
+                    <div class="flex gap-3 my-3 text-[#FFFFFFCC] hover:text-violet-700 duration-300 cursor-pointer">
+                        <div class="">
+                            <img src="./img/Message.png" alt="">
+                        </div>
+                        support@zone.com
+                    </div>
+                    <div class="flex gap-[15px] mt-[10px]">
+                        <img class="cursor-pointer hover:mt-[-5px] hover:mb-[5px] duration-300" src="./img/facebook.png"
+                            alt="">
+                        <img class="cursor-pointer hover:mt-[-5px] hover:mb-[5px] duration-300" src="./img/twitter.png"
+                            alt="">
+                        <img class="cursor-pointer hover:mt-[-5px] hover:mb-[5px] duration-300" src="./img/instagram.png"
+                            alt="">
+                            <img class="cursor-pointer hover:mt-[-5px] hover:mb-[5px] duration-300" src="./img/pinterest.png"
+                            alt="">
+                        </div>
+                    </div>
+                    <div class="col-span-1">
+                        <li
+                            class=" list-none my-3 text-lg text-[#FFFFFFCC] hover:text-violet-700 duration-300 cursor-pointer leading--[40px] tracking-[0.01em]">
+                            Service
+                        </li>
+                        <li
+                            class=" list-none my-3 text-lg text-[#FFFFFFCC] hover:text-violet-700 duration-300 cursor-pointer leading--[40px] tracking-[0.01em]">
+                            Order Management
+                        </li>
+                        <li
+                            class=" list-none my-3 text-lg text-[#FFFFFFCC] hover:text-violet-700 duration-300 cursor-pointer leading--[40px] tracking-[0.01em]">
+                            Social Assistant
+                        </li>
+                        <li
+                            class=" list-none my-3 text-lg text-[#FFFFFFCC] hover:text-violet-700 duration-300 cursor-pointer leading--[40px] tracking-[0.01em]">
+                            Crypto Platform
+                        </li>
+                        <li
+                            class=" list-none my-3 text-lg text-[#FFFFFFCC] hover:text-violet-700 duration-300 cursor-pointer leading--[40px] tracking-[0.01em]">
+                            Analyzer of the News
+                        </li>
+                    </div>
+                    <div class="cols col-span-1">
+                        <li
+                            class=" list-none my-3 text-lg text-[#FFFFFFCC] hover:text-violet-700 duration-300 cursor-pointer leading--[40px] tracking-[0.01em]">
+                            Company
+                        </li>
+                        <li
+                            class=" list-none my-3 text-lg text-[#FFFFFFCC] hover:text-violet-700 duration-300 cursor-pointer leading--[40px] tracking-[0.01em]">
+                            About Us
+                        </li>
+                        <li
+                            class=" list-none my-3 text-lg text-[#FFFFFFCC] hover:text-violet-700 duration-300 cursor-pointer leading--[40px] tracking-[0.01em]">
+                            News
+                        </li>
+                        <li
+                            class=" list-none my-3 text-lg text-[#FFFFFFCC] hover:text-violet-700 duration-300 cursor-pointer leading--[40px] tracking-[0.01em]">
+                            Our trusted partner
+                        </li>
+                        <li
+                            class=" list-none my-3 text-lg text-[#FFFFFFCC] hover:text-violet-700 duration-300 cursor-pointer leading--[40px] tracking-[0.01em]">
+                            New users FAQ
+                        </li>
+                    </div>
+
+
+
+
+                    <div class="cols col-span-1">
+                        <li
+                        class=" list-none my-3 text-lg text-[#FFFFFFCC] hover:text-violet-700 duration-300 cursor-pointer leading--[40px] tracking-[0.01em]">
+                        Supports
+                    </li>
+                    <li
+                        class=" list-none my-3 text-lg text-[#FFFFFFCC] hover:text-violet-700 duration-300 cursor-pointer leading--[40px] tracking-[0.01em]">
+                        Help center
+                    </li>
+                    <li
+                        class=" list-none my-3 text-lg text-[#FFFFFFCC] hover:text-violet-700 duration-300 cursor-pointer leading--[40px] tracking-[0.01em]">
+                        Feedback
+                    </li>
+                    <li
+                        class=" list-none my-3 text-lg text-[#FFFFFFCC] hover:text-violet-700 duration-300 cursor-pointer leading--[40px] tracking-[0.01em]">
+                        Contact us
+                    </li>  
+                    <li
+                        class=" list-none my-3 text-lg text-[#FFFFFFCC] hover:text-violet-700 duration-300 cursor-pointer leading--[40px] tracking-[0.01em]">
+                        Terms conditions
+                    </li>  
+                    </div>
+                    <div class="cols col-span-1">
+                    <li
+                        class=" list-none my-3 text-lg text-[#FFFFFFCC] hover:text-violet-700 duration-300 cursor-pointer leading--[40px] tracking-[0.01em]">
+                        Resoucers
+                    </li>  
+                    <li
+                        class=" list-none my-3 text-lg text-[#FFFFFFCC] hover:text-violet-700 duration-300 cursor-pointer leading--[40px] tracking-[0.01em]">
+                        Download
+                    </li>  
+                    <li
+                        class=" list-none my-3 text-lg text-[#FFFFFFCC] hover:text-violet-700 duration-300 cursor-pointer leading--[40px] tracking-[0.01em]">
+                        Blog
+                    </li>  
+                    <li
+                        class=" list-none my-3 text-lg text-[#FFFFFFCC] hover:text-violet-700 duration-300 cursor-pointer leading--[40px] tracking-[0.01em]">
+                        What`s new
+                    </li>  
+                    <li
+                        class=" list-none my-3 text-lg text-[#FFFFFFCC] hover:text-violet-700 duration-300 cursor-pointer leading--[40px] tracking-[0.01em]">
+                        Sitemap
+                    </li>  
+                    </div>
+        </div>            
+        
+        <div class="line w-full h-[1px] absolute left-0 opacity-20 md-[6px] bg-[#969696]"></div>       
+        <div class="bottom flex justify-center gap-5 md:justify-between flex-wrap px-[5%] py-[26px]">
+            <div class="left">
+                © 2021 Zone. - All rights reserved.
+            </div>
+            <div class="right inline-flex list-none gap-10 px-[5%]">
+                <li class= text-[#FFFFFFCC]"hover:text-violet-700 duration-300 cursor-pointer">Privacy</li>
+                <li class= text-[#FFFFFFCC]"hover:text-violet-700 duration-300 cursor-pointer">Security</li>
+                <li class= text-[#FFFFFFCC]"hover:text-violet-700 duration-300 cursor-pointer">Term</li>
+            </div>
+        </div>
+    </div>
+</body>
+<!-- javascript -->
+<script src="./main.js"></script>
+
+</html>
